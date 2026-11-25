@@ -21,6 +21,14 @@ public class Livre {
     public String getIsbn() {
         return isbn;
     }
+    public void setTitre(String t){
+        if (!t.equals(""))
+            this.titre = t ;
+    }
+    public void setAuteur(String a){
+        if(!a.equals(""))
+            this.auteur = a;
+    }
     public boolean isDisponible() {
         return disponible;
     }
